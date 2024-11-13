@@ -1,0 +1,9 @@
+===============================================
+========USUARIOS DENTRO DE LA BD ACTIVOS=======
+===============================================
+Usuario Solo lee Documentos
+user - temporal2024
+	Administrador lee, Descarga, sube documentos, gestiona usuarios
+	admin - temporal2024
+		Todos los permisos del Administrador
+		dev - temporal2024
