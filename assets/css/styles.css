@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 100%; /* Ajusta el tamaño del logo */
+    margin-top: 10;
+    margin-bottom: 5px; /* Espacio entre el logo y el encabezado */
+    width: 200px;  /* Cambia 150px por el ancho que desees */
+    height: auto;  /* Esto mantiene la proporción del logo */
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 1px solid #4CAF50;
+}
+
+.btn {
+    background-color: #2d572c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.error-message {
+    color: #898989;
+}
+
+.btn.loading {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

@@ -1,0 +1,122 @@
+/* user_management.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    /*margin: 0;*/
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+h4 {
+    color: #2d572c; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #2d572c; /* Verde oscuro */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Efecto hover del enlace */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #2d572c; /* Verde oscuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Espacio entre el botón y la tabla */
+}
+
+/* Efecto hover del botón */
+button:hover {
+    background-color: #245b23; /* Verde más oscuro */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo de los encabezados de la tabla */
+th {
+    background-color: #2d572c; /* Verde oscuro */
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo de las celdas de la tabla */
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* Estilo de las filas al pasar el mouse */
+tr:hover {
+    background-color: #e9f5e9; /* Verde claro */
+}
+
+/* Estilo para la ventana modal */
+#addUserModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilo del contenido de la ventana modal */
+#modal-content {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px; /* Ancho fijo para el modal */
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+/* Estilo de los inputs en el modal */
+input[type="text"],
+input[type="password"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo del botón en el modal */
+#modal-content button {
+    background-color: #2d572c; /* Verde oscuro */
+    width: 100%; /* Botón completo */
+    margin-top: 10px;
+}
+
+/* Efecto hover del botón en el modal */
+#modal-content button:hover {
+    background-color: #245b23; /* Verde más oscuro */
+}
+
+.title {
+    margin-bottom: 3px;
+}

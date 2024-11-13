@@ -1,0 +1,85 @@
+/* header_footer.css */
+
+.site-header {
+    background-color: #2d572c; /* Color de fondo */
+    color: white; /* Color de texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.logo img {
+    height: 50px; /* Ajusta según tu diseño */
+}
+
+.user-welcome h2 {
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.header-nav button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-nav button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
+}
+
+.site-footer {
+    background-color: #2d572c; /* Color de fondo */
+    color: white; /* Color de texto */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Cambia la fuente global para el header y footer */
+.site-header, .site-footer{
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente elegida */
+}
+
+/* Resto del CSS */
+.site-header {
+    background-color: #2d572c; /* Color de fondo */
+    color: white; /* Color de texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.site-footer {
+    background-color: #2d572c; /* Color de fondo */
+    color: white; /* Color de texto */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* header_footer.css */
+
+/* Estilo del pie de página */
+footer {
+    background-color: #2d572c; /* Verde oscuro */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 10px 0; /* Espaciado vertical */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+}
+
+.footer-content p {
+    margin: 5px 0; /* Margen entre párrafos */
+}

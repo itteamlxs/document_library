@@ -1,0 +1,80 @@
+/* upload_document.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #2d572c; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los inputs */
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+/* Cambio de borde al enfocar */
+input[type="text"]:focus,
+input[type="file"]:focus {
+    border-color: #2d572c; /* Verde oscuro */
+}
+
+/* Estilo del botón */
+button {
+    background-color: #2d572c; /* Verde oscuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+/* Efecto hover del botón */
+button:hover {
+    background-color: #245b23; /* Verde más oscuro */
+}
+
+/* Estilo para los mensajes de alerta */
+.alert {
+    background-color: #ffeeba; /* Amarillo claro */
+    color: #856404; /* Texto marrón */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del enlace */
+a {
+    color: #2d572c; /* Verde oscuro */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Efecto hover del enlace */
+a:hover {
+    text-decoration: underline;
+}

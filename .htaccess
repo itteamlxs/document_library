@@ -1,0 +1,9 @@
+RewriteEngine On
+# No aplicar la regla de redirección general para las URLs de documentos
+RewriteCond %{REQUEST_URI} !^/documento/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Redirigir a la vista de los documentos
+RewriteRule ^documento/([0-9]+)$ /views/document_view.php?id=$1 [L]

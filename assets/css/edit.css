@@ -1,0 +1,65 @@
+/* edit.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #2d572c; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #2d572c; /* Verde oscuro */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Efecto hover del enlace */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #2d572c; /* Verde oscuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Espacio superior para el botón */
+    margin-bottom: 10px;
+}
+
+/* Efecto hover del botón */
+button:hover {
+    background-color: #245b23; /* Verde más oscuro */
+}
+
+/* Estilo para los inputs */
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el mensaje de alerta */
+.alert {
+    background-color: #fff3cd; /* Color de fondo amarillo claro */
+    border: 1px solid #ffeeba; /* Borde amarillo */
+    color: #856404; /* Texto marrón oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
