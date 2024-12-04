@@ -143,6 +143,3 @@ Antes de subir el proyecto al servidor, realiza las siguientes configuraciones e
 
 Este proyecto se distribuye bajo la licencia MIT. Puedes usar, modificar y distribuir el código según los términos de la licencia.
 
----
-
-¡Y eso es todo! Este es el resumen completo de la conversación, organizado en un `README.md` para tu proyecto. Si necesitas más detalles o algún ajuste, no dudes en indicarlo.
